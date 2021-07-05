@@ -3,6 +3,10 @@ body {
 	box-sizing: border-box;
 }
 
+.container {
+	width: 100% !important;
+}
+
 .logo-clone {
 	text-align: center;
 	margin: 10px 0 0 0;
