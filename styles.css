@@ -1,161 +1,187 @@
-
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
 }
 
 .logo-clone {
-    text-align: center;
-    margin: 10px 0 0 0;
+	text-align: center;
+	margin: 10px 0 0 0;
 }
 
 .logo {
-    width: 103px;
-    display: inline-block;
+	width: 103px;
+	display: inline-block;
+}
+
+.form-section,
+.message-section,
+.buttons-section {
+	width: 100%;
 }
 
 .form-item {
-    margin: 0 auto;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 26px;
+	margin: 0 auto;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 26px;
 }
 
 h1 {
-    font-size: 28px;
+	font-size: 28px;
 }
 
 .text-psw {
-    width:100%
+	width: 100%;
 }
 
 .big_bold {
-    font-weight: bold;
-    font-size: 13px;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .password_text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 13px;
 }
 
 .psw {
-    display: block;
+	display: block;
 }
 
 .btn {
-    border: 1px solid #111;
-    font-size: 13px;
+	border: 1px solid #111;
+	font-size: 13px;
 }
 
 .btn:hover {
-    border: 1px solid #111;
+	border: 1px solid #111;
 }
 
 form p {
-    font-size: 12px;
-    color: #111
+	font-size: 12px;
+	color: #111;
 }
 details {
-    font-size: 13px;
+	font-size: 13px;
 }
 
 summary {
-    color: #0265C0;
+	color: #0265c0;
 }
 
 summary:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .space {
-    margin-left: 15px;
-    padding: 10px 0 5px;
+	margin-left: 15px;
+	padding: 10px 0 5px;
 }
 
 .space2 {
-    margin-left: 30px;
-    padding: 3px 0;
+	margin-left: 30px;
+	padding: 3px 0;
 }
 
 hr.message {
-    padding: 0;
-    border: none;
-    border-top: thin solid #333;
-    color: #333;
-    text-align: center;
-    }
+	padding: 0;
+	border: none;
+	border-top: thin solid #333;
+	color: #333;
+	text-align: center;
+}
 
 hr.message:after {
-    content: "New to Amazon?";
-    color: #555;
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: black;
-    }
+	content: "New to Amazon?";
+	color: #555;
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: black;
+}
 
 .btn-new-container {
-    margin: 0 auto;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	margin: 0 auto;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn-new {
-    background-color: #F0F1F3;
-    color: #111;
-    width: 350px;
-    
+	background-color: #f0f1f3;
+	color: #111;
+	width: 350px;
 }
 
 .btn-new:hover {
-    background-color: #d7d9dd;
-    color: #111;
+	background-color: #d7d9dd;
+	color: #111;
 }
 
 .links-section {
-    font-size: 12px;
-    display: flex;
-    justify-content: space-evenly;
-    width: 350px;
-    margin: 0 auto;
-    margin-top: 40px;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
 }
 
 .copy {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    margin: 30px auto;
-    color: #767676;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	margin: 30px auto;
+	color: #767676;
 }
 
 hr.stylish {
-    margin-top: 40px;
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
-    }
+	margin-top: 40px;
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.message-section {
+	padding-top: 15px;
+}
+
+.message-container {
+	font-size: 13px;
+	color: #919191;
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+	padding: 0 26px;
+}
+
+.message-container p {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.message-container hr {
+	margin-top: 10px;
+}
